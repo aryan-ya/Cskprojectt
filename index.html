@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSK</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Two Strongest Teams in IPL</h1> 
+
+    <div class="team">
+       
+    <div class="csk">
+    
+     <img id="csk" src="./csk/download (2).png" alt="" srcset="">
+     <div class="teamtext">
+     <h2>CHENNAI SUPER KING</h2>
+     <h3 id="bt"></h3>
+     <h4 id="Cskkkk"></h4>
+     <h4 id="win"></h4>
+    </div>
+    </div>
+     <div class="mi">
+        <img id="mi"  src="./mi/download (2).png" alt="" srcset="">
+        
+        <h2>MUMBAI INDIANS</h2>
+       
+        <h3 id="btnn"></h3>
+        <h4 id="Miiiii"></h4>
+        <h4 id="winn"></h4>
+       
+     </div>
+    </div>
+    <div class="btnn">
+    <button id="btn">Compare Teams</button>
+
+</div>
+<script>
+
+
+    const btn = document.getElementById("btn");
+    const csk = document.getElementById("csk");
+    const mi = document.getElementById("mi");
+    const Cskkk= document.getElementById("Cskkk");
+    const Miii = document.getElementById("Miii");
+    const Miiiii = document.getElementById("Miiiii");
+     const Cskkkkk = document.getElementById("Cskkkkk");
+     const btnn = document.getElementById("btnn")
+  
+
+
+    btn.addEventListener("click" , teams);
+
+    function teams(){
+
+
+    
+        if (btn.textContent.includes('Compare Teams')) {
+        csk.src =  "./csk/download (11).jpg"
+        mi.src = "./csk/download (11).jpg"
+        Cskkkk.textContent = "4 Times"
+        Miiiii.textContent = "5 Times"
+        btn.textContent = "Lets compare"
+        bt.textContent = "Winner"
+      
+        btnn.textContent = "Winner"
+
+     }else if(btn.textContent.includes('Lets compare')) {
+        csk.src =  "./csk/images (5).jpg"
+        mi.src = "./mi/download (12).jpg"
+        Cskkkk.textContent = "Mahi"
+        win.textContent = "34 Match 14 Win"
+         Miiiii.textContent = "Hitman"
+         bt.textContent = "Captain"
+         btnn.textContent = "Captain"
+         winn.textContent = "34 Match 20 Win"
+         btn.textContent = "Compare Players"
+         
+     }else if(btn.textContent.includes('Compare Players')){
+        csk.src = "./csk/download (14).jpg"
+        mi.src = "./mi/download (20).jpg"
+        Cskkkk.textContent = "Highest score 101"
+        Miiiii.textContent = "Highest score 99"
+        win.textContent = "Opener Batsman"
+        bt.textContent = "Rituraj Gaikwad"
+        btnn.textContent = "Ishan kishan"
+        winn.textContent = "Opener Batsman"
+        btn.textContent = "Compare player"
+     }else if(btn.textContent.includes('Compare player')){
+       csk.src = "./csk/images (9).jpg"
+       mi.src = "./mi/download (19).jpg"
+       Cskkkk.textContent = "Highest score 93"
+        Miiiii.textContent = "Highest score 82"
+        win.textContent = ""
+        bt.textContent = "Moeen Ali"
+        btnn.textContent = "SKY"
+        winn.textContent = ""
+        btn.textContent = "COMPARE PLAYERS"
+     }else if(btn.textContent.includes('COMPARE PLAYERS')){
+        csk.src = "./csk/download (15).jpg"
+        mi.src = "./mi/images (10).jpg"
+        Cskkkk.textContent = "Highest score 101"
+        Miiiii.textContent = "Highest score 84"
+        win.textContent = ""
+        bt.textContent = "Ben stokes"
+        btnn.textContent = "Tilak Verma "
+        winn.textContent = ""
+         btn.textContent = "compareplayer"
+     }else if(btn.textContent.includes('compareplayer')){
+        csk.src = "./csk/images (8).jpg"
+        mi.src = "./mi/download (10).jpg"
+        Cskkkk.textContent = "Spinnner"
+        Miiiii.textContent = "Spinner"
+        win.textContent = ""
+        bt.textContent = "Jaddu"
+        btnn.textContent = "Piyush Chawla"
+        winn.textContent = ""
+         btn.textContent = "Compare Teams"
+     }
+
+     }
+
+
+
+</script>
+
+
+</body>
+</html>

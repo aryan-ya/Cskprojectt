@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}.team{
+    display: flex;
+    justify-content: center;
+    gap: 195px;
+    margin-top: 60px;
+    
+
+}h2{
+    color: red;
+}
+
+
+
+h1{
+   display: flex;
+   justify-content: center;
+   color: blue;
+   text-decoration: underline;
+}h3 , h4{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: red;
+}#btn{
+    padding: 10px 70px 10px 70px;
+    background-color: pink;
+    
+    font-weight: 700;
+    border: none;
+}.btnn{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+}
